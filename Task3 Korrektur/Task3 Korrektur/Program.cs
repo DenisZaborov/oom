@@ -116,14 +116,14 @@ namespace Task3
 
                     for (int index = 0; index < businesses.Length; index++)
                     {
-                        Console.WriteLine("  Business Name: {0}, Business Adress: {1}", businesses[index].Name , businesses[index].Address);
-                        businesses[index].CheckLine();                        
+                        Console.WriteLine("  Business Name: {0}, Business Adress: {1}", businesses[index].Name, businesses[index].Address);
+                        businesses[index].CheckLine();
                     }
                     Console.ReadLine();
 
-                }                 
+                }
             }
         }
     }
 }
-        
+
